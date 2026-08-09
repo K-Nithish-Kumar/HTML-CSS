@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="./index.html">
+        <!-- label tag represents a caption for the inputs in a UI -->
+        <!-- To associate or link the label and input field together 1. -> we have to add the id attribute in the input field and next in label add for attribute
+          then give the same name for both id and for attribute-->
+        <label for="username">Click me to focus the input field</label>
+        <input type="text" placeholder="Enter your name" name="username" id="username">
+        
+        <!-- More example inputs -->
+         <input type="date">
+         <input type="color">
+         <input type="email">
+         <input type="number">
+         <input type="password" name="password">
+         <input type="file">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
