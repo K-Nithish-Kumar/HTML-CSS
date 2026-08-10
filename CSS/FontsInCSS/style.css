@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    color: teal;
+}
+
+p {
+    /* font-weight: 600; */
+}
