@@ -1,0 +1,8 @@
+/* Text align is used to align the content in our web page */
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: start; /* Default is start or left*/
+}
