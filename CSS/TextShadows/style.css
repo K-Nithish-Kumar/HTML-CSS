@@ -1,0 +1,16 @@
+body {
+    background-color: #f00;
+}
+
+h1 {
+    line-height: 90vh;
+    font-family: Niconne;
+    font-size: 12rem;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    /* Text shadow adds shadow to the text BASIC SYNTAX text-shadow: 1px -> x-offset 1px-> y-offset 2px -> blur color; */ 
+    text-shadow: 5px 5px 0px #ffff23, 10px 10px 0px #3fffe5, 15px 15px 0px #3f5cff, 
+                 20px 20px 0px #68bd00, 25px 25px 0px #31b4ff, 30px 30px 0px #43ffad, 
+                 35px 35px 0px #43ffad, 40px 40px 0px #43ffad, 45px 45px 0px #43ffad;
+}
