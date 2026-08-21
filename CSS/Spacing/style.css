@@ -1,0 +1,9 @@
+h1 {
+    letter-spacing:20px; /*letter-spacing is used to give a space for each letter in a word */
+    text-align: center;
+}
+
+p {
+    word-spacing: 10px; /*word-spacing is used to give a space  between words in a content (or) paragraph */
+    line-height: 2; /*line-height is used to give a space between each line in a paragraph */
+}
