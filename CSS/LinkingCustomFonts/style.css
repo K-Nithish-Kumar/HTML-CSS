@@ -1,0 +1,25 @@
+/* We can use the custom fonts using css as well by importing the font family link from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+body {
+    font-family: "Black Ops One";
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
+    color: #0a0093;
+}
+
+h2 {
+    font-weight: 150;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
