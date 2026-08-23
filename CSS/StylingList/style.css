@@ -1,0 +1,23 @@
+#stepOne {
+    /* The list-style-type CSS property specifies the type of marker (such as a bullet, number, or character) used for list items. */
+    list-style-type: "\1F44d";
+
+    list-style-position: inside;
+
+    /* The list-style-image CSS property replaces a list item's default bullet point or marker with a custom image. */
+    list-style-image: url("Some custom image url");
+}
+
+#stepTwo {
+    /* The list-style-type CSS property specifies the type of marker (such as a bullet, number, or character) used for list items. */
+    list-style-type: circle;
+
+    list-style-position: outside;
+}
+
+#stepThree {
+    /* The list-style-type CSS property specifies the type of marker (such as a bullet, number, or character) used for list items. */
+    /* list-style-type: decimal; */
+
+    list-style-position: outside;
+}
