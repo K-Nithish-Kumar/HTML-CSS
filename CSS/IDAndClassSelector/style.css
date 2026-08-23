@@ -1,0 +1,53 @@
+body {
+    font-family: 'Indie Flower';
+}
+
+h1 {
+    font-family: 'Black Ops One';
+    text-transform: uppercase; /* text-transform is used to transform our text to uppercase, lowercase, and capitalise*/ 
+}
+
+/* h2 {
+    font-family: 'Black Ops One';
+    /*text-decoration-line adds the line based styles to the content */
+    /* text-decoration-line: underline;  */
+
+    /* text-decoration-style is used to style the line*/
+    /* text-decoration-style: solid; */
+
+    /* text-decoration-color is used to change the color of the line*/
+    /* text-decoration-color: blue; */
+
+    /* text-decoration is a shorthand property for all the above one*/
+    /* text-decoration: underline solid Red; */
+/* } */
+
+h3 {
+    font-family: 'Black Ops One';
+    text-decoration: underline solid purple;
+}
+
+h4 {
+    font-family: 'Black Ops One';
+    text-decoration: underline wavy rgb(190, 0, 70);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-heading {
+    font-family: 'Black Ops One';
+    background-color: #ceff97;
+    text-align: center;
+}
+
+.sub-heading.border {
+    border: 2px solid #4f56e9;
+}
+
+#mainHeading {
+    text-align: center;
+    background-color: #ff4499;
+    color: #fff;
+}
