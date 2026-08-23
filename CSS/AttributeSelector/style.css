@@ -1,0 +1,23 @@
+input {
+    background-color: red;
+}
+/* Attribute selector */
+/*this is the syntax to select the input type*/
+input[type="text"] {
+    background-color: gold;
+}
+
+/*this is the syntax to select the anchor attribute *= matches all the links that had the value*/
+a[href*="google"] {
+    color: red;
+}
+
+/* ^= selects the anchor element which matches starts with # */
+a[href^="#"] {
+    color: olive;
+}
+
+/* $= selects the anchor element which matches the value ends with */
+a[href$=".com"] {
+    color: chartreuse;
+}
