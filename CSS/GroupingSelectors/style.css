@@ -1,0 +1,23 @@
+/* Grouping selectors means grouping different elements if each they need the exact same styling */
+body {
+    font-family: 'Black Ops One';
+}
+
+
+/* Element Group Selectors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Indie Flower';
+}
+
+/* Class group Selectors */
+.Main-Heading,
+.Sub-Heading {
+    text-align: center;
+    color: white;
+    background-color: orangered;
+}
