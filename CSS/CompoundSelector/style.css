@@ -1,0 +1,4 @@
+/* This is compound selector which only changes the colour of the p element with the class .firstPara*/
+p.firstPara {
+    color: red;
+}
