@@ -1,0 +1,18 @@
+div {
+    /* This box-sizing is default which is content-box. It sets the width and height only to the content padding and border is extra added upto the content and 
+       the whole box height and width could be changed to width + padding-left + padding-right + border-left + border-right 
+       In this example 200 + 10 + 10 + 5 + 5 = width = 230px same for height + padding-top + padding-bottom + border-top + border-bottom  */
+    background-color: purple;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid cyan;
+}
+
+#alternate {
+    /* But this box model sets all the content + border-width + padding within the width and height
+       width - padding-left - padding-right - border-left - border-right 
+       In this example 200 - 10 - 10 - 5 - 5 = width = 170px same for height - padding-top - padding-bottom - border-top - border-bottom */
+    box-sizing: border-box;
+}
