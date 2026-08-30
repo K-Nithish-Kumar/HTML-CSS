@@ -1,0 +1,19 @@
+/* Descendant Combinator - ul li { } -> here ul is a parent and li is nested somewhere in the ul
+   It's is useful when group of same elements nested within some elements instead of giving same class name to all the nested elements 
+   we use Descendant combinator */
+
+/* Here all the li inside the ul is changed to red colour */
+/* ul li {
+    color: red;
+} */
+
+/* if we want specific ul's li to be styled we use id attribute for that ul */
+#cast li {
+    color: red;
+}
+
+/* child combinator - ul > li {} -> here only the li inside the ul will be change  not somewhere inside the ul*/
+/* I have declared ul then some li then ol and fially some li but only the li inside the ul is changed inside ol is not changed. But in Descendant combinator all the li inside ul including ol li change*/
+#castOne > li {
+    color: red;
+}
