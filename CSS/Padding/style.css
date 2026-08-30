@@ -1,0 +1,15 @@
+a {
+    font-size: 50px;
+    border: 1px solid red;
+    /* Padding is the space adding between the content and the border */
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    /* We can use this shorthand property padding: top-bottom left-right; */
+    /* padding: 10px 20px; */
+
+    /* Padding shorthand this adds space for all the 4 sides*/
+    padding: 10px;
+}
