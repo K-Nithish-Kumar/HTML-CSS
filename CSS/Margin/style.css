@@ -1,0 +1,23 @@
+h1 {
+    border: 1px solid red;
+    /* Margin is used to adding space between 2 elements */
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+
+    /* Shorthand rule */
+    margin: 20px;
+
+    /* We can use same as padding like margin: top-bottom left-right; */
+    margin: 30px 80px;
+
+    /* Or we can do like this margin: top right bottom left;*/
+    margin: 10px 20px 30px 40px;
+
+}
+
+
+a {
+    border: 1px solid blue;
+}
