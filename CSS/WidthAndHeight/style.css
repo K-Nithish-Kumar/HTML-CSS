@@ -1,0 +1,18 @@
+h1 {
+    border: 2px solid olivedrab;
+    width: 500px;
+    height: 100px;
+}
+
+#container {
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.box {
+    /* Here the units in the percentage is applied based on the parent container width and height 500px is parents width and 50% of it is 250px which is applied to this div */
+    width: 50%;
+    height: 50%;
+    border: 1px solid orange;
+}
