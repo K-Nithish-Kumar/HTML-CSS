@@ -1,0 +1,21 @@
+p {
+    font-size: 30px;
+}
+
+#word {
+    /* For inline element padding, margin for top and bottom doesnot work which means it doesnot push other elements away from its box */
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 30px;
+    /* So we use display property to change its type */
+    /* display: block; */  /* this changes into block element and it covers the entire horizontal space on the screen and it respects width, padding, margin and so on */
+
+    /* If we want to act the element as inline but it should have to respect margin, padding, width and height use below one*/
+    display: inline-block;
+
+}
+
+h1 {
+    /* It completely hide and remove the element */
+    display: none;
+}
