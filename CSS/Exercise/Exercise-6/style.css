@@ -1,0 +1,41 @@
+body {
+    background-color: #463d36;
+    font-family: sans-serif;
+}
+
+
+strong {
+    font-size: 28px;
+    color: #a6192e;
+}
+
+#container {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 100px auto;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-size: 40px;
+    color: #463d36;
+}
+
+p {
+    font-size: 28px;
+    color: #463d36;
+}
+
+button {
+    color: #fff;
+    background-color: #463d36;
+    padding: 30px 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
