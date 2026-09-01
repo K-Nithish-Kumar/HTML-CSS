@@ -21,3 +21,39 @@ h1 {
 a {
     border: 1px solid blue;
 }
+
+/* Negative Margins */
+h2 {
+    /* margin: -20px; */
+}
+
+/* Margin - auto */
+#container {
+    border: 1px solid blue;
+    background-color: lavenderblush;
+    height: 700px;
+    width: 500px;
+}
+
+/* Now we want to center the element horizontally inside the above container */
+/* But it doesnot work for vertically */
+h3 {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    /* margin: auto auto; -> doesnot work for vertically */
+}
+
+/* Margin collapsing -> If we apply margin-top and bottom for two block level elements it will get collapsing but for margin-left and right it will not collapsing */
+/* Example: margin-top and bottom: 20px; -> for vertical it always take the larger margin value not the total value of two element
+if One element margin-top and bottom is 20px and another one is 50px means 50px is the total margin but for horizontal it is adding of both which is 70px */
+
+p {
+    border: 1px solid green;
+    font-size: 30px;
+    /*margin: 20px 0;*/ /* here both are get collapsing*/
+    /* but for horizontal */
+    display: inline-block;
+    width: 300px;
+    margin: 20px 30px; /* here both are added which gives 60px gap between the 2 paragraphs */
+}
