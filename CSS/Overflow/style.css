@@ -1,0 +1,13 @@
+div {
+    height: 300px;
+    width:300px;
+    border: 5px solid blue;
+    margin: 0 auto;
+    font-size: 30px; /* Now the content in the box may overflow to handle this we use overflow property*/
+    /* overflow: hidden; It hides the content after the end of the box */
+    overflow: scroll; /* It hides the content after the end of the box and enable scroll to see it */
+    overflow: visible; /* It is default */
+    /* We can also set for x and y direction only */
+    overflow-x: visible;
+    overflow-y: hidden;
+}
