@@ -1,0 +1,13 @@
+#container {
+    width: 80%;
+    /* min-width is the width should be greater than this width */
+    min-width: 400px;
+    /* max-width is the width should be smaller than this width */
+    max-width: 800px;
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 0 auto;
+
+
+}
