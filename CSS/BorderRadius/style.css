@@ -1,0 +1,14 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 0 auto;
+    /* Border Radius is used to round the corners */
+    /* Syntax: border-radius: top-left top-right bottom-right bottom-left; */
+    /* border-radius: 10px 20px 30px 40px; */
+
+
+    /* We can give one value for all sides */
+    border-radius: 30px;
+}
