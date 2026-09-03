@@ -1,0 +1,9 @@
+/* The + combinator search the immediate element p after the h1 and the style appeared */
+h1 + p {
+    color: red;
+}
+
+/* The ~ combinator selects the immediate element after the h1 or not */
+h1 ~ p {
+    color: blue;
+}
