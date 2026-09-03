@@ -1,0 +1,21 @@
+/* Pseudo-Elements is used to apply the styles to the specific selected elements */
+
+p::first-line {
+    color: blue;
+    text-transform: uppercase;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 200%;
+}
+
+input::placeholder {
+    color: red;
+    opacity: 0.5;
+}
+
+p::selection {
+    color: red;
+    background-color: yellow;
+}
