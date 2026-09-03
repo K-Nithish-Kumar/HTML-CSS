@@ -1,0 +1,39 @@
+/* Hover class is used to apply the styles when we only hover that element */
+button:hover {
+    background-color: red;
+}
+
+/* active is applying styles when we click the element */
+button:active {
+    background-color: blue;
+}
+
+/* first-of-type apply styles to the li group's 1st li element in the whole document */
+li:first-of-type {
+    /* border: 1px solid red; */
+}
+
+/* last-of-type apply styles to the li group's last li element in the whole document */
+li:last-of-type {
+    /* border: 1px solid blue; */
+}
+
+/* nth-last-of-type apply styles to the li that we are selected in a group's li element in the whole document */
+li:nth-last-of-type(2) {
+    /* border: 1px solid black; */
+}
+
+/* nth-last-of-type(2n) apply styles to the even li elements that are in a group's li element in the whole document */
+li:nth-last-of-type(2n) {
+    border: 1px solid olive;
+}
+
+/* Visited applies the style after visiting the web page */
+a:visited {
+    color: olive;
+}
+
+/* Focus applies the style when we are trying to type something in the input field */
+input:focus {
+    background-color: lavender;
+}
