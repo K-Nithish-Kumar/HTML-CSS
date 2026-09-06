@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Forum", serif;
+}
+
+.hero {
+    min-height: 95vh;
+    background-color: #ff5560;
+    color: #fff;
+    display: inline-block;
+}
+
+.hero-content {
+    padding: 0 15%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.navbar .links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+.navbar p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+
+.navbar .contact {
+    background-color: #fff;
+    color: #ff5560;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.hero .hero-content {
+    padding: 0 15%;
+
+}
+
+.tagline {
+    font-size: 3.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 32px 0;
+}
+
+.two-column-section {
+    font-size: 1.2rem;
+    padding: 0 15%;
+}
+
+.two-column-section > p {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.two-column-section .skills {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+}
+
+.two-column-section .skills li {
+    width: 50%;
+    list-style: none;
+    float: left;
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.blog-container {
+    background-color: #fff;
+    padding: 64px 0;
+}
+
+.two-column-section .post {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+
+.blog-heading {
+    font-size: 1.5rem;
+}
+
+.blog-text {
+    font-size: 1rem;
+}
+
+.post .blog-date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+.post p {
+    margin: 8px 0;
+}
+
+.events-section {
+    width:100%;
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+}
+
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+
+.event-title {
+    font-size: 1.5rem;
+}
+
+.events-card p {
+    margin: 8px 0;
+}
+
+.event-location {
+    font-size: 1rem;
+}
+
+.events-card .event-date {
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+    color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 64px;
+    margin:0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
