@@ -1,0 +1,12 @@
+img {
+    width: 150px;
+    object-fit: cover;
+    /* height: 500px; */
+    background-color: brown;
+    float: left;
+    margin: 20px;
+}
+
+p {
+    font-size: 30px;
+}
