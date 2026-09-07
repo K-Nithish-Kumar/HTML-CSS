@@ -7,5 +7,9 @@
     /* If we want Multiple backgrounds we can do it. */
     /* In below the first url sets the background on top then the second one will show behind the first one */
     background-image: url('images/peacock.png'), url("images/food.jpg");
-    bac
+    /* This property is used to control the background repetation if it's small. For Eg: peacock png is an icon so it filled repeatedly over the box to avoid this we use the below property */
+    background-repeat: no-repeat; /* This sets the background for exactly one time*/
+    background-repeat: repeat-x; /* This sets the background repetation over the horizontal direction only*/
+    background-repeat: repeat-y; /* This sets the background repetation over the vertical direction only*/
+    background-repeat: repeat; /* This is the default one it filled the background repeatedly as possible inside the container*/
 }
