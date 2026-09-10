@@ -1,5 +1,5 @@
 .box {
-    border: 1px solid red;
+    border: 20px dashed red;
     width: 500px;
     height: 500px;
     /* background-color: blueviolet; */
@@ -21,4 +21,9 @@
 
     /* background-position is used to position the image inside the container */
     background-position: center;
+
+    padding: 30px;
+
+    /* background-clip sets the image based on the property we give if we give it as border box the image fits inside the border as well */
+    background-clip: /*padding-box*/ /*border-box */ content-box;
 }
