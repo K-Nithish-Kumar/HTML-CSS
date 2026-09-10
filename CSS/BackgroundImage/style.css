@@ -2,11 +2,13 @@
     border: 20px dashed red;
     width: 500px;
     height: 500px;
+
     /* background-color: blueviolet; */
     /* background-image sets the image as a background  */
     /* If we want Multiple backgrounds we can do it. */
     /* In below the first url sets the background on top then the second one will show behind the first one */
-    background-image: url("images/people.jpg");
+    /* background-image: url("images/people.jpg"); */
+
     /* This property is used to control the background repetation if it's small. For Eg: peacock png is an icon so it filled repeatedly over the box to avoid this we use the below property */
    /* background-repeat: no-repeat; /* This sets the background for exactly one time*/
    /* background-repeat: repeat-x; /* This sets the background repetation over the horizontal direction only*/
@@ -26,4 +28,7 @@
 
     /* background-clip sets the image based on the property we give if we give it as border box the image fits inside the border as well */
     background-clip: /*padding-box*/ /*border-box */ content-box;
+
+    /* linear-gradient */
+    background-image: linear-gradient(45deg, red, blue, yellow, orange, cyan);
 }
