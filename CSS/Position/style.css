@@ -35,21 +35,21 @@ p {
     position: relative;
 }
 
-span {
+/*span {
     background-color: orangered;
     color: whitesmoke;
     /* Below it position this element based on the above parent element is postioned. Now it only positioned inside a above parent box*/
-    position: absolute;
-    right: 0;
-}
+    /* position: absolute;
+    right: 0; */
+/* } /*
 
 .special {
     background-color: orangered;
     /* postion:absolute; removes the original flow of the element in a document and it manipulated and moved by top,left,right,bottom based on the parent element */
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     /* z-index: 2; */
-}
+/*} */
 
 
