@@ -1,0 +1,55 @@
+p {
+    border: 1px solid black;
+    background-color: magenta;
+    margin: 30px;
+    font-size: 20px;
+
+    /* Position property is used to position the property in the document and static is default value and top,left,bottom,right and z-index have no effect */
+    
+    /* position: static; */
+    /* top: 100px; */ /* Does not work*/
+
+    position: relative;
+    z-index: 2;
+}
+
+#special {
+    background-color: yellow;
+
+    /* position : relative -> still the elements fits in the normal document flow but after that we can manipulate using top,left,right,bottom */
+    /* Even the element is in offset, its original place still exist for that element */
+    position: relative;
+    top: 40px; /*It fits the element from its original place */
+    left: 30px;
+
+    /* z-index stack the elements on the top (or) below other element based on the order 0,1,2,3 */
+    z-index: 1;
+    
+}
+
+.box {
+    background-color: olive;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+span {
+    background-color: orangered;
+    color: whitesmoke;
+    /* Below it position this element based on the above parent element is postioned. Now it only positioned inside a above parent box*/
+    position: absolute;
+    right: 0;
+}
+
+.special {
+    background-color: orangered;
+    /* postion:absolute; removes the original flow of the element in a document and it manipulated and moved by top,left,right,bottom based on the parent element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 2; */
+}
+
+
