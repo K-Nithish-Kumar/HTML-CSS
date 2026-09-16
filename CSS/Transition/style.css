@@ -1,0 +1,36 @@
+/* Transition is applying to an element to change its state from one state to another */
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 30px;
+    /* transition syntax -> transition: <property> <duration> <timing-function> <delay> */
+    /* transition: background-color 0.5s; */
+
+    /* Multiple transitions */
+    transition:background-color 5s ease-out 2s;
+}
+
+.btn:hover {
+    background-color: orangered;
+    /* color: white; */
+} 
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    display: inline-block;
+    /* transform allows us to rotate, skew, scale the elements */
+    /* Below translate property moves the element without bothering other elements */
+    /* transform: translate(100px, 200px); */
+}
+
+.first {
+    /* transform: translate(100px, 200px); */
+
+background-color: red;
+    /* rotate rotates the element based on the degree */
+    transform: rotate(45deg);
+}
