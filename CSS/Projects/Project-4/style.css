@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(#9dffd3, #425c50);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in;
+}
+
+.first:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.second:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
