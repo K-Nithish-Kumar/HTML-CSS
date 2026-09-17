@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 6rem;
+}
+
+.container {
+    width: 1200px;
+    border: 4px solid #000000;
+    margin: 40px auto;
+    display: flex;
+    /* flex-direction:row; is sets the content flow inside the container from left to right and it's a default value*/
+    /* flex-direction: row; */
+
+    /* flex-direction:row-reverse; is opposite to the flex-direction: row; which sets the content flow inside the container from right to left.*/
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction:column; sets the content flow from top to bottom */
+    /* flex-direction: column; */
+
+    /* flex-direction:column-reverse; sets the content flow from bottom to top */
+    flex-direction: column-reverse;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    text-align: center;
+}
