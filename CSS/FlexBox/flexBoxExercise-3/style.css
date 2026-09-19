@@ -1,0 +1,33 @@
+h1 {
+  font-size: 5rem;
+  text-align:center;
+}
+.container  {
+  background-color: #283593;
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  /* 1. To align the items center */
+  align-items: center;
+  justify-content: center;
+
+  /*2.To align items at the bottom and provide space around each item */
+  align-items: flex-end;
+  justify-content: space-around;
+
+  /*3.Align the items to the bottom and the order should be column like 1 item below the other one not next to it */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+span {
+  color: white;
+  background-color: #26C6DA;
+  font-size: 3rem;
+  width: 200px;
+  border: 1px solid black;
+  text-align:center;
+  border-radius: 20px;
+}
