@@ -1,0 +1,28 @@
+.container {
+    width: 70%;
+    height: 1000px;
+    border: 4px solid black;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color: purple;
+    color: #fff;
+    font-size: 3rem;
+    height: 150px;
+    width: 200px;
+    order: 1; /*Default value -> elements arranged in accending order*/
+}
+
+.special {
+    background-color: orangered;
+    order: 2; /*This makes come this element after all that have order:1*/
+    /* To make this element comes first use order:-1; which is greater */
+    order: -1;
+    /* We use this order property when we are going to create some card which will have the details like Date, Title, some content, 
+    On that card Date is aligned on the top right but if somebody uses screen reader it's not going work so instead of giving date as 1st
+    we give title, some content then Date and we change the order using order property  */
+}
