@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 4px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+p {
+    background-color: greenyellow;
+    margin: 0;
+
+}
+
+.sidebar {
+    background-color: palevioletred;
+    width: 200px;
+    /* flex: flex-grow flex-shrink flex-basis */
+    flex: 1 0 100px;
+    flex: initial; /*Here flex grow doesnot happen it's shorthand for flex:0 1 auto;*/
+    flex: auto; /*Here flex-grow also takes place it's shorthand for flex:1 1 auto;*/
+}
