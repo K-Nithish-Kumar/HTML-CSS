@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 4px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar {
+    background-color: palevioletred;
+    flex-grow: 1;
+}
+
+p {
+    background-color: greenyellow;
+    margin: 0;
+    width: 600px;
+    /* Above width makes the extra space available in the container between the element to make use of this available space we use flex-grow */
+    /* flex-grow is a property used to occupy the extra space by the element in a container */
+    flex-grow: 1; /*It occupies the extra space available in the container*/
+    flex-grow: 2; /*This one occupies the more space than sidebar*/
+    /* To avoid flex-grow at some width use max-width */
+    max-width: 600px;
+}
