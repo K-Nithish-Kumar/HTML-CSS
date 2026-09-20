@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 4px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: 40px auto;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    background-color: greenyellow;
+    margin: 0;
+    /* width: 500px; */
+    /* flex-basis is a property used to set the initial main size of an element if flex-direction:row; flex-basis sets a width, if flex-direction:column; it sets a height */
+    flex-basis: 500px;
+}
