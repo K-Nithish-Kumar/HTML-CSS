@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 4px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar {
+    background-color: palevioletred;
+    width: 1000px;
+}
+
+p {
+    background-color: greenyellow;
+    margin: 0;
+    width: 1000px;
+    /* flex-shrink is a property it shrinks the element to fill up the container width if the element has more width than their parent container */
+    /* for eg we set the width to 1000px for each element but if we see the container it equally split the spaces because it automatically shrink, default one is flex-shrink:1 */
+    flex-shrink: 2; /*It shrinks 2 times faster than the other elements*/
+}
