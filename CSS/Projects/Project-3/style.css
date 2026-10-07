@@ -49,11 +49,6 @@ body {
     opacity: 0.8;
 }
 
-.hero .hero-content {
-    padding: 0 15%;
-
-}
-
 .tagline {
     font-size: 3.5rem;
     color: #fff;
@@ -162,4 +157,52 @@ footer {
     width: 2rem;
     height: 2rem;
     margin: 0 8px;
+}
+
+@media only screen and (max-width: 950px) {
+    .hero-content,
+    .two-column-section {
+        padding: 0 5%;
+    }
+
+    .events-section {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .tagline {
+        font-size: 3rem;
+    }
+
+    .two-column-section > p {
+        width: 100%;
+    }
+
+    .two-column-section .skills {
+        width: 100%;
+    }
+
+    .two-column-section .post {
+        width: 100%;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .tagline {
+        font-size: 3rem;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    
 }
