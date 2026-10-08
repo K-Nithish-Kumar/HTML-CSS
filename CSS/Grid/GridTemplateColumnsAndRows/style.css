@@ -20,6 +20,9 @@
     /* grid-template-columns: minmax(200px, auto) minmax(200px, auto) minmax(200px, auto); */
 
     /* repeat(no.of. times to repeat rows/columns / size) */
-    grid-template-columns: repeat(2, 1fr) repeat(3, 2fr); /*Here 5 columns use the size of 1 fraction instead of writing for all the columns we can use like this*/
+    /*grid-template-columns: repeat(2, 1fr) repeat(3, 2fr); /*Here 5 columns use the size of 1 fraction instead of writing for all the columns we can use like this*/
 
+    /* fit-content() is used to avoid oversizing due to the content we clamp it at some px and it doesnot going beyond that */
+    grid-template-columns: 1fr 1fr 1fr; /*Now see each box takes 1fr exactly and the box doesnot fit based on the content*/
+    grid-template-columns: fit-content(300px) fit-content(300px) fit-content(300px); /* Now instead of taking the equal widths the box only grow upto their content and at max 0f 300px it stops growing */
 }
