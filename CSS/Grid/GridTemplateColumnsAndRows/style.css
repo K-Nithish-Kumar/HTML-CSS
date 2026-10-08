@@ -7,4 +7,17 @@
 
     /* grid-template: row values / column values -> shorthand property */
     grid-template: 1fr 2fr 1fr  / 1fr 1fr 1fr;
+
+    /* minmax function 
+        - It's is used to set the min and max width for the columns and also for the height of the row */
+    
+    /* minmax(min, max); */
+    grid-template-columns: minmax(200px, 1fr); /*Look here now the box takes the full width of the container because of setting max width to 1fr and it shrinks down to 200px becuase of providing min width but it doesnot shrink below 200px*/
+    /* The above is specified for one column for multiple one we call the function again and again with parameters */
+    grid-template-columns: minmax(200px , 1fr) minmax(200px, 2fr);
+
+    /* Now if we give a larger content inside a box, the content gets overflow, To grow the size of the box based on the content give second parameter as auto */
+    grid-template-columns: minmax(200px, auto) minmax(200px, auto) minmax(200px, auto);
+
+
 }
