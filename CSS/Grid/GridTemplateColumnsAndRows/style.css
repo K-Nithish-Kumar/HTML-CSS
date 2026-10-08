@@ -23,6 +23,21 @@
     /*grid-template-columns: repeat(2, 1fr) repeat(3, 2fr); /*Here 5 columns use the size of 1 fraction instead of writing for all the columns we can use like this*/
 
     /* fit-content() is used to avoid oversizing due to the content we clamp it at some px and it doesnot going beyond that */
-    grid-template-columns: 1fr 1fr 1fr; /*Now see each box takes 1fr exactly and the box doesnot fit based on the content*/
-    grid-template-columns: fit-content(300px) fit-content(300px) fit-content(300px); /* Now instead of taking the equal widths the box only grow upto their content and at max 0f 300px it stops growing */
+    /*grid-template-columns: 1fr 1fr 1fr; /*Now see each box takes 1fr exactly and the box doesnot fit based on the content*/
+    /*grid-template-columns: fit-content(300px) fit-content(300px) fit-content(300px); /* Now instead of taking the equal widths the box only grow upto their content and at max 0f 300px it stops growing */
+
+    /* Column and row gap */
+    grid-template: 1fr 1fr / repeat(4, 1fr);
+
+    /* If we want to give a gap between each column use column-gap*/
+    /* column-gap: 16px; */
+
+    /* If we want to give a gap between each row use row-gap*/
+    /* row-gap: 16px; */
+
+    /* If both the column-gap and row-gap are same use grid-gap which is like shorthand property if both have equal gaps */
+    grid-gap: 40px;
+
+    /* If we want to specify both gaps in one property use gap: row-gap column-gap */
+    gap: 10px 20px;
 }
