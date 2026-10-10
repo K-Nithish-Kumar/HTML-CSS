@@ -10,8 +10,14 @@
     grid-template-rows: repeat(3, 1fr); */
 
     /* Naming our grid lines */
-    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 1fr;
-    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr;
+    /* grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 1fr;
+    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr; */
+
+    /* grid-template-area */
+    /* Here vertical letters are rows and horizontal letters are columns */
+    grid-template-areas: 
+    "a a c" 
+    "b b c";
 }
 
 .grid-lines {
@@ -35,7 +41,19 @@
     /*Another shorthand property is grid-area: grid-column-start, grid-row-start, grid-row-end, grid-column-end */
     /* grid-area: 1 / 2 / 3 / 4; */
 
-    grid-column-start: col1-start;
-    grid-column-end: col3-start;
+    /* Using the name */
+    /* grid-column-start: col1-start;
+    grid-column-end: col3-start; */
 
-}   
+    /*grid-area*/
+    grid-area: a;
+
+}
+
+.second {
+    grid-area: b;
+}
+
+.third {
+    grid-area: c;
+}
