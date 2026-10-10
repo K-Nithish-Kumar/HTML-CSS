@@ -23,4 +23,11 @@
     /* In below span keyword is used to set the how many columns it should take instead of telling it from start line to end line */
     grid-column-end: span 3;
     grid-row-end: span 3;
-}
+
+    /* Shorthand property for grid-column-start, grid-column-end, grid-row-start, grid-row-end */
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+
+    /*Another shorthand property is grid-area: grid-column-start, grid-row-start, grid-row-end, grid-column-end */
+    grid-area: 1 / 2 / 3 / 4;
+}   
