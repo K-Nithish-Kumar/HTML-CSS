@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #03ae94;
+    margin: 0 30px;
+}
+
+span:nth-child(1) {
+    animation: spin 1s infinite ease-in;
+}
+
+span:nth-child(2) {
+    animation: spin 1s infinite 0.33s ease-in;
+}
+
+span:nth-child(3) {
+    animation: spin 1s infinite 0.66s ease-in;
+}
+
+@keyframes spin {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        transform: translateY(-20px) scale(1.2);
+    }
+    100% {
+        transform: translateY(0) scale(1);
+    }
+}
