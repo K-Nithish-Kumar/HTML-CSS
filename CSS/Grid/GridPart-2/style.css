@@ -18,4 +18,9 @@
 
     grid-row-start: 1; /*Starting line of the grid for row*/
     grid-row-end: 3; /*Ending line of the grid for row*/
+
+    /* Span keyword */
+    /* In below span keyword is used to set the how many columns it should take instead of telling it from start line to end line */
+    grid-column-end: span 3;
+    grid-row-end: span 3;
 }
