@@ -1,0 +1,21 @@
+/* Grid part - 2 Working with grid-items */
+
+.container {
+    width: 50%;
+    height: 50vh;
+    background-color: #000;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-lines {
+    /* grid-lines is used to give the width based on the line for 2 column there are 4 lines from 1 to 4 */
+    /* We also position the grid-items using this below property */
+    grid-column-start: 1; /*Starting line of the grid*/
+    grid-column-end: 3; /*Ending line of the grid*/
+
+    grid-row-start: 1; /*Starting line of the grid for row*/
+    grid-row-end: 3; /*Ending line of the grid for row*/
+}
