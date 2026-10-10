@@ -6,28 +6,36 @@
     background-color: #000;
     margin: 200px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+
+    /* Naming our grid lines */
+    grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 1fr;
+    grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr;
 }
 
 .grid-lines {
     /* grid-lines is used to give the width based on the line for 2 column there are 4 lines from 1 to 4 */
     /* We also position the grid-items using this below property */
-    grid-column-start: 1; /*Starting line of the grid*/
-    grid-column-end: 3; /*Ending line of the grid*/
+    /*grid-column-start: 1; /*Starting line of the grid*/
+    /*grid-column-end: 3; /*Ending line of the grid*/
 
-    grid-row-start: 1; /*Starting line of the grid for row*/
-    grid-row-end: 3; /*Ending line of the grid for row*/
+    /*grid-row-start: 1; /*Starting line of the grid for row*/
+    /*grid-row-end: 3; /*Ending line of the grid for row*/
 
     /* Span keyword */
     /* In below span keyword is used to set the how many columns it should take instead of telling it from start line to end line */
-    grid-column-end: span 3;
-    grid-row-end: span 3;
+    /* grid-column-end: span 3;
+    grid-row-end: span 3; */
 
     /* Shorthand property for grid-column-start, grid-column-end, grid-row-start, grid-row-end */
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
+    /* grid-column: 1 / span 3;
+    grid-row: 1 / span 2; */
 
     /*Another shorthand property is grid-area: grid-column-start, grid-row-start, grid-row-end, grid-column-end */
-    grid-area: 1 / 2 / 3 / 4;
+    /* grid-area: 1 / 2 / 3 / 4; */
+
+    grid-column-start: col1-start;
+    grid-column-end: col3-start;
+
 }   
