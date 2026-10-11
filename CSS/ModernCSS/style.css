@@ -1,0 +1,13 @@
+:root {
+    --brand-color: rgb(0, 65, 177);
+}
+
+.container {
+    width: 100%;
+    color: var(--brand-color);
+}
+
+button {
+    background-color: var(--brand-color);
+    color: white;
+}
